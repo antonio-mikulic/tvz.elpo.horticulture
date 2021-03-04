@@ -1,0 +1,140 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background-color: #f7f7f7;
+}
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+nav a img{
+	width: 50px;
+}
+.header{
+	background-image: url(../img/header.jpg);
+	background-size: cover;
+	height: 400px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.row{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+.row:first-child{
+	padding: 0px;
+
+}
+
+.container {
+	background-color: white;
+	opacity: 0.95;
+}
+
+			
+.navbar-inverse {
+	background-color: rgba(0, 0, 0, 0.82);
+	border-bottom: solid 3px green;
+}
+
+.headlineKicker{
+	padding: 40px 0px 20px 0px;
+}
+.headlineKicker h2{
+	margin-top: -12px;
+	margin-bottom: -6px;
+	font-size: 48px;
+	color: black;
+    text-align: center;
+}
+
+.headlineKicker h6 {
+	color: #222;
+	text-align: center;
+	font-size: 16px;
+}
+
+.headlineKicker p:first-child {
+	color: green;
+	font-size: 26px;
+	text-align: center;
+}
+
+footer {
+	background-color: #333;
+	padding: 20px 0;
+	width: 100%;
+	color: white;
+}
+footer .container{
+	background-color: #333;
+}
+
+.container-fluid {
+	width: 62%;
+}
+
+.customButton {
+    background-color: transparent; /* Green */
+    border: 3px solid green;
+    border-radius: 1px;
+    color: green;
+    padding: 8px 16px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.customButton:hover{
+	border-color: black;
+	color: black;
+
+}
+
+.customButton:active {
+	color: gray;
+	border-color: gray;
+}
+
+.testimonialPhoto {
+	display: block;
+	width: 125px;
+	margin: 0 auto;
+}
+
+.avatarName {
+	padding: 15px 0px 20px 0px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.quoteSign {
+	color: green;
+	font-size: 35px;
+	line-height: 14px;
+	font-family: Courier;
+}
+
+.img-circle {
+	border: 3px solid green;
+}
+
+.testimonialColumn {
+	padding: 0px 30px;
+}
+
+.info{
+	padding-bottom: 50px;
+}

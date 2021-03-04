@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+	background-color: #F1F1E8;	
+}
+#logo{
+	background-image: url(img/Horticulture.jpg);
+	display: cover;
+	height: 300px;
+}
+header h1{
+	text-align: center;
+	padding: 120px;
+	font-size: 3em;
+	color: white;
+}
+
+header nav{
+	margin: 0 auto;
+	width: 75%;
+	max-width: 1200px;
+	background-color: green;
+}
+header ul {
+	list-style: none;	
+}
+
+header li {
+    float: right;
+
+}
+
+header li a {
+    display: block;
+    color: black;
+    font-size: 28px;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+header li a:hover {
+    background-color: #111;
+    background-color: #444;
+}
+
+#wrapper{
+	width: 75%;
+	max-width: 1200px;
+	background-color: white;
+	margin: 0 auto;
+	background-color: #FBFBF2;
+	box-shadow: 1px 5px 10px #1E1E1E, 1px 5px 10px #1E1E1E;
+	text-align: center;
+	clear: both;
+}
+
+footer {
+	background-color: #1E1E1E;
+	color: white;
+	background-color: green;
+	text-align: center;
+	padding: 20px;
+}
+
+.clear{
+	clear: both;
+}
+
+article{
+	padding: 25px;
+}
